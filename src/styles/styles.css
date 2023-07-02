@@ -1,0 +1,38 @@
+:root {
+    --dark-blue: #202733;
+    --dark-grayish-blue: #313A48;
+    --grayish-blue: #4F5D74;
+    --light-cyan: #CEE3E9;
+    --neon-green: #53FFAA;
+}
+
+.dark-grayish-blue {background-color: var(--dark-grayish-blue);}
+
+body {
+    background-color: var(--dark-blue);
+    font-family: 'Manrope', sans-serif;
+}
+
+.caption {
+    color: var(--neon-green);
+    font-size: 11px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.457px;
+}
+.advice {
+    color: #CEE3E9;
+    font-size: 24px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.257px;
+}
+.fetchBtn {
+    border: none;
+    background-color: var(--neon-green);
+    translate: 0 50%;
+}
