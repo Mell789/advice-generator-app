@@ -1,5 +1,8 @@
 @media screen and (min-width:1024px)
-{
+{   
+    .advice_container {
+        translate: 0;
+    }
     .adviceCaption {
         font-size: 13px;
     }

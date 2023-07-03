@@ -14,6 +14,7 @@ body {
 }
 .advice_container {
     max-width: 540px;
+    translate: 0 -20px;
 }
 
 .adviceCaption {
