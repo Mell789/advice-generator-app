@@ -1,0 +1,9 @@
+@media screen and (min-width:1024px)
+{
+    .adviceCaption {
+        font-size: 13px;
+    }
+    .adviceContext {
+        font-size: 28px;
+    }
+}
