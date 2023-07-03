@@ -12,20 +12,21 @@ body {
     background-color: var(--dark-blue);
     font-family: 'Manrope', sans-serif;
 }
+.advice_container {
+    max-width: 540px;
+}
 
-.caption {
+.adviceCaption {
     color: var(--neon-green);
     font-size: 11px;
-    font-family: Manrope;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     letter-spacing: 3.457px;
 }
-.advice {
+.adviceContext {
     color: #CEE3E9;
     font-size: 24px;
-    font-family: Manrope;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -35,4 +36,15 @@ body {
     border: none;
     background-color: var(--neon-green);
     translate: 0 50%;
+    user-select: none;
+    transition: .3s;
+}
+.fetchBtn.disabled {
+    background-color: grey !important;
+    box-shadow: none !important;
+    cursor: not-allowed;
+}
+
+.fetchbtnHover:hover {
+    box-shadow: 0 0 25px var(--neon-green);
 }
