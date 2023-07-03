@@ -7,3 +7,9 @@
         font-size: 28px;
     }
 }
+@media screen and (min-width:1600px)
+{
+    .advice_container {
+        max-width: 600px;
+    }    
+}

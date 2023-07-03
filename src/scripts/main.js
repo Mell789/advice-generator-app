@@ -24,8 +24,10 @@ const generateNewAdvice = async () => {
 }
 
 const disableBtn = () => {
+    fetchBtn.disabled = true;
     fetchBtn.classList.add("disabled");
     setTimeout(() => {
+        fetchBtn.disabled = false;
         fetchBtn.classList.remove("disabled");
     }, 2000);
 }
