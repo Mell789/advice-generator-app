@@ -34,6 +34,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [Advice Slip API](https://api.adviceslip.com)
 
 ## Author
 
